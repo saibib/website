@@ -390,7 +390,7 @@ a:focus-visible {
   }
 
   .tree {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.12;
   }
 
@@ -404,5 +404,11 @@ a:focus-visible {
 
   .pdf-file iframe {
     min-height: 540px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tree {
+    font-size: 16px;
   }
 }
