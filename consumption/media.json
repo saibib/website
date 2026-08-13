@@ -1,0 +1,98 @@
+[
+  {
+    "title": "The Bluest Eyes",
+    "type": "book",
+    "month": "June 2026",
+    "tone": "sky",
+    "role": "author",
+    "creator": "Toni Morrison"
+  },
+  {
+    "title": "There's Always This Year",
+    "type": "book",
+    "month": "July 2026",
+    "tone": "gold",
+    "role": "author",
+    "creator": "Hanif Abdurraqib"
+  },
+  {
+    "title": "Obsession",
+    "type": "movie",
+    "month": "June 2026",
+    "tone": "red",
+    "role": "director",
+    "creator": "Curry Barker"
+  },
+  {
+    "title": "Taxi Driver",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "charcoal",
+    "role": "director",
+    "creator": "Martin Scorsese"
+  },
+  {
+    "title": "Moneyball",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "green",
+    "role": "director",
+    "creator": "Bennett Miller"
+  },
+  {
+    "title": "My Father's Shadow",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "blue",
+    "role": "director",
+    "creator": "Akinola Davies Jr."
+  },
+  {
+    "title": "How to Make a Killing",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "violet",
+    "role": "director",
+    "creator": "John Patton Ford"
+  },
+  {
+    "title": "Simulations",
+    "type": "book",
+    "month": "June 2026",
+    "tone": "orange",
+    "role": "author",
+    "creator": "Jean Baudrillard"
+  },
+  {
+    "title": "Surf's Up",
+    "type": "movie",
+    "month": "June 2026",
+    "tone": "aqua",
+    "role": "directors",
+    "creator": "Ash Brannon & Chris Buck"
+  },
+  {
+    "title": "It Was an Accident",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "pink",
+    "role": "director",
+    "creator": "Metin Hüseyin"
+  },
+  {
+    "title": "Backrooms",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "black",
+    "role": "director",
+    "creator": "Kane Parsons"
+  },
+  {
+    "title": "Odyssey",
+    "type": "movie",
+    "month": "July 2026",
+    "tone": "teal",
+    "role": "director",
+    "creator": "Christopher Nolan"
+  }
+]

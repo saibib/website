@@ -1,0 +1,14 @@
+I am broadly interested in collaborating on:
+- alignment
+- neurosymbolic ai
+- causality
+
+Some specific research directions are:
+- neurosymbolic causal discovery to learn lifted rule representations
+- causal abstraction in world models for long horizon planning
+- intervention semantics for latent variable representations in world models
+- neurosymbolic attention mechanisms
+- the limits of preference distribution learnability
+- hci dynamics for alignment
+
+Use the contact form on this page if you're keen to chat.

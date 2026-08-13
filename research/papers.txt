@@ -1,0 +1,8 @@
+Mission Impossible: Universal LLM Moral Alignment
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6490619
+
+Efficient Counterfactual Reasoning in ProbLog via Single World Intervention Programs
+https://www.catalyzex.com/paper/efficient-counterfactual-reasoning-in-problog
+
+DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs
+https://arxiv.org/abs/2606.20526
