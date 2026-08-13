@@ -136,6 +136,10 @@ a:focus-visible {
   text-underline-offset: 0.15em;
 }
 
+.text-file a.intro-link {
+  color: var(--ink);
+}
+
 .paper-title {
   text-transform: none;
 }
