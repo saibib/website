@@ -22,9 +22,12 @@ async function loadMedia() {
 }
 
 function renderItems(canvas, items, filter) {
-  const visibleItems = filter === "all"
+  const visibleItems = (filter === "all"
     ? items
-    : items.filter((item) => normalizeType(item.type) === filter);
+    : items.filter((item) => normalizeType(item.type) === filter))
+    .map((item, index) => ({ item, index }))
+    .sort((left, right) => dateValue(left.item) - dateValue(right.item) || left.index - right.index)
+    .map(({ item }) => item);
   const columns = Math.max(1, Math.ceil(Math.sqrt(visibleItems.length * 1.45)));
 
   canvas.style.setProperty("--map-columns", columns);
@@ -45,6 +48,11 @@ function renderItems(canvas, items, filter) {
       </div>
     </article>`;
   }).join("");
+}
+
+function dateValue(item) {
+  const value = Date.parse(item.month || "");
+  return Number.isNaN(value) ? Number.POSITIVE_INFINITY : value;
 }
 
 function normalizeType(type) {
