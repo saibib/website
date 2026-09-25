@@ -3,7 +3,7 @@ async function loadMedia() {
   const buttons = [...document.querySelectorAll("[data-filter]")];
 
   try {
-    const response = await fetch("media.json");
+    const response = await fetch("media.json?v=20260925a");
     if (!response.ok) throw new Error("media.json could not be loaded");
 
     const items = await response.json();

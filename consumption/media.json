@@ -1,6 +1,6 @@
 [
   {
-    "title": "The Bluest Eyes",
+    "title": "The Bluest Eye",
     "type": "book",
     "month": "June 2026",
     "tone": "sky",
@@ -94,5 +94,93 @@
     "tone": "teal",
     "role": "director",
     "creator": "Christopher Nolan"
+  },
+  {
+    "title": "America",
+    "type": "book",
+    "month": "June 2026",
+    "tone": "charcoal",
+    "role": "author",
+    "creator": "Jean Baudrillard"
+  },
+  {
+    "title": "Die My Love",
+    "type": "movie",
+    "month": "June 2026",
+    "tone": "coral",
+    "role": "director",
+    "creator": "Lynne Ramsay"
+  },
+  {
+    "title": "Sexy Beast",
+    "type": "movie",
+    "month": "August 2026",
+    "tone": "gold",
+    "role": "director",
+    "creator": "Jonathan Glazer"
+  },
+  {
+    "title": "If I Had Legs I'd Kick You",
+    "type": "movie",
+    "month": "August 2026",
+    "tone": "pink",
+    "role": "director",
+    "creator": "Mary Bronstein"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "red",
+    "role": "director",
+    "creator": "Jon Watts"
+  },
+  {
+    "title": "As I Lay Dying",
+    "type": "book",
+    "month": "September 2026",
+    "tone": "orange",
+    "role": "author",
+    "creator": "William Faulkner"
+  },
+  {
+    "title": "The Work of Art in the Age of Mechanical Reproduction",
+    "type": "book",
+    "month": "September 2026",
+    "tone": "sky",
+    "role": "author",
+    "creator": "Walter Benjamin"
+  },
+  {
+    "title": "Kuch Kuch Hota Hai",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "violet",
+    "role": "director",
+    "creator": "Karan Johar"
+  },
+  {
+    "title": "Doctor Sleep",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "black",
+    "role": "director",
+    "creator": "Mike Flanagan"
+  },
+  {
+    "title": "Resident Evil",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "green",
+    "role": "director",
+    "creator": "Zach Cregger"
+  },
+  {
+    "title": "Mayflies",
+    "type": "book",
+    "month": "September 2026",
+    "tone": "aqua",
+    "role": "author",
+    "creator": "Andrew O'Hagan"
   }
 ]
