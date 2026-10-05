@@ -182,5 +182,53 @@
     "tone": "aqua",
     "role": "author",
     "creator": "Andrew O'Hagan"
+  },
+  {
+    "title": "Manhunter",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "charcoal",
+    "role": "director",
+    "creator": "Michael Mann"
+  },
+  {
+    "title": "In Cold Blood",
+    "type": "book",
+    "month": "September 2026",
+    "tone": "blue",
+    "role": "author",
+    "creator": "Truman Capote"
+  },
+  {
+    "title": "Nayak: The Hero",
+    "type": "movie",
+    "month": "September 2026",
+    "tone": "gold",
+    "role": "director",
+    "creator": "Satyajit Ray"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "type": "movie",
+    "month": "October 2026",
+    "tone": "red",
+    "role": "director",
+    "creator": "Jonathan Demme"
+  },
+  {
+    "title": "Digger",
+    "type": "movie",
+    "month": "October 2026",
+    "tone": "teal",
+    "role": "director",
+    "creator": "Alejandro G. Iñárritu"
+  },
+  {
+    "title": "Native Son",
+    "type": "book",
+    "month": "October 2026",
+    "tone": "orange",
+    "role": "author",
+    "creator": "Richard Wright"
   }
 ]
