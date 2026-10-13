@@ -230,5 +230,13 @@
     "tone": "orange",
     "role": "author",
     "creator": "Richard Wright"
+  },
+  {
+    "title": "Ways of Seeing",
+    "type": "book",
+    "month": "October 2026",
+    "tone": "violet",
+    "role": "author",
+    "creator": "John Berger"
   }
 ]

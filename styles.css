@@ -343,21 +343,22 @@ a:focus-visible {
   width: 100%;
   height: min(72vh, 760px);
   min-height: 460px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   background: var(--paper);
 }
 
 .map-canvas {
   display: grid;
-  grid-template-columns: repeat(var(--map-columns), 160px);
-  width: max-content;
-  min-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  width: 100%;
+  min-width: 0;
   align-content: start;
-  justify-content: center;
 }
 
 .media-card {
-  width: 160px;
+  width: 100%;
+  min-width: 0;
   color: var(--ink);
   transition: transform 120ms ease, z-index 120ms ease;
 }
@@ -366,8 +367,9 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 160px;
-  height: 230px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 160 / 230;
   padding: 14px 12px 12px;
   border: 1px solid var(--paper);
   color: #ffffff;

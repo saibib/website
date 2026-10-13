@@ -3,7 +3,7 @@ async function loadMedia() {
   const buttons = [...document.querySelectorAll("[data-filter]")];
 
   try {
-    const response = await fetch("media.json?v=20261005a");
+    const response = await fetch("media.json?v=20261013a");
     if (!response.ok) throw new Error("media.json could not be loaded");
 
     const items = await response.json();
@@ -28,9 +28,6 @@ function renderItems(canvas, items, filter) {
     .map((item, index) => ({ item, index }))
     .sort((left, right) => dateValue(left.item) - dateValue(right.item) || left.index - right.index)
     .map(({ item }) => item);
-  const columns = Math.max(1, Math.ceil(Math.sqrt(visibleItems.length * 1.45)));
-
-  canvas.style.setProperty("--map-columns", columns);
   canvas.innerHTML = visibleItems.map((item) => {
     const type = normalizeType(item.type);
     const title = escapeHtml(String(item.title || "").toLowerCase());
